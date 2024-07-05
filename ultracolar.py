@@ -50,4 +50,4 @@ play_audio(audio_filename)
 while pygame.mixer.music.get_busy():
     pygame.time.Clock().tick(10)
 
-#máximo 24 execuções
+#máximo 24 execuções no windows
